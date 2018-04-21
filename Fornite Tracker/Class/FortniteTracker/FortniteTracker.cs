@@ -217,6 +217,10 @@ namespace Fornite_Tracker
         /// <returns></returns>
         public static String GetString_MinutePlayed(String time, Config config)
         {
+            if(time == null)
+            {
+                return null;
+            }
             if (Language.GetEnum(Int32.Parse(config.Language)) == EnumLanguage.FR) time = time.Replace('d', 'j');
 
             return time;
