@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<language>
+  <button>
+    <stat>Statistics</stat>
+    <history>Historic</history>
+    <option>Options</option>
+    <ok>OK</ok>
+    <cancel>Cancel</cancel>
+    <search>Search</search>
+    <allStat>All</allStat>
+    <solo>Solo</solo>
+    <duo>Duo</duo>
+    <squad>Squad</squad>
+  </button>
+  <label>
+    <titleOption>Options</titleOption>
+    <login>Login</login>
+    <platform>Platforme</platform>
+    <apiKey>API Key</apiKey>
+    <apiKeyGenerate>Generate API Key</apiKeyGenerate>
+    <language>Language</language>
+    <lifeTimeStat>
+      <title>Life time stats</title>
+      <score>Score</score>
+      <matchsPlayed>Matches played</matchsPlayed>
+      <wins>Wins</wins>
+      <winPercentage>Wins %</winPercentage>
+      <kill>Kills</kill>
+      <killDeath>Kills / Death</killDeath>
+      <killMinute>Killes / Minute</killMinute>
+      <timePlayed>Time played</timePlayed>
+    </lifeTimeStat>
+    <stat>
+      <title>
+        <solo>Stats Solo</solo>
+        <duo>Stats Duo</duo>
+        <squad>Stats Squad</squad>
+      </title>
+      <score>Score</score>
+      <matchesPlayed>Matches played</matchesPlayed>
+      <top>
+        <top1>Top 1</top1>
+        <top5>Top 5</top5>
+        <top12>Top 12</top12>
+        <top3>Top 3</top3>
+        <top6>Top 6</top6>
+        <top10>Top 10</top10>
+        <top25>Top 25</top25>
+      </top>
+      <winRatio>Wins %</winRatio>
+      <kill>Kills</kill>
+      <killDeath>Kills / Death</killDeath>
+      <killMinute>Kills / Minute</killMinute>
+      <killGame>Kills / Game</killGame>
+      <timePlayed>Time played</timePlayed>
+    </stat>
+    <color>
+      <title>Colors</title>
+      <window>Window</window>
+      <button>Buttons</button>
+      <buttonHover>Buttons Hover</buttonHover>
+      <font>Font</font>
+    </color>
+  </label>
+</language>

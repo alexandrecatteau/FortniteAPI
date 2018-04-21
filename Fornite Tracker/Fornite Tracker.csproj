@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F7D9428-FDFD-484E-8B36-C9AA3748859B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fornite_Tracker</RootNamespace>
+    <AssemblyName>Fornite Tracker</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Fortnite_Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Alex.Boxs">
+      <HintPath>Framework\Alex.Boxs.dll</HintPath>
+    </Reference>
+    <Reference Include="Alex.Controls">
+      <HintPath>Framework\Alex.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Config\Config.Enum.cs" />
+    <Compile Include="Class\Config\Config.Data.cs" />
+    <Compile Include="Class\Config\Config.cs" />
+    <Compile Include="Class\Error\Error.Data.cs" />
+    <Compile Include="Class\Error\Error.Enum.cs" />
+    <Compile Include="Class\Error\Error.cs" />
+    <Compile Include="Class\FileSave\FileSave.Enum.cs" />
+    <Compile Include="Class\FileSave\FileSave.Data.cs" />
+    <Compile Include="Class\FileSave\FileSave.cs" />
+    <Compile Include="Class\FortniteTracker\FortniteTracker.Data.cs" />
+    <Compile Include="Class\FortniteTracker\FortniteTracker.Enum.cs" />
+    <Compile Include="Class\FortniteTracker\FortniteTracker.cs" />
+    <Compile Include="Class\Language\Language.Data.cs" />
+    <Compile Include="Class\Language\Language.Enum.cs" />
+    <Compile Include="Class\Language\Language.cs" />
+    <Compile Include="Class\PlayerTextBox\PlayerTextBox.Data.cs" />
+    <Compile Include="Class\PlayerTextBox\PlayerTextBox.Enum.cs" />
+    <Compile Include="Class\PlayerTextBox\PlayerTextBox.cs" />
+    <Compile Include="Class\Translation\Translation.Data.cs" />
+    <Compile Include="Class\Translation\Translation.Enum.cs" />
+    <Compile Include="Class\Translation\Translation.cs" />
+    <Compile Include="Class\PlatForm\PlateForm.Data.cs" />
+    <Compile Include="Class\PlatForm\PlateForm.Enum.cs" />
+    <Compile Include="Class\PlatForm\PlateForm.cs" />
+    <Compile Include="Form\Enum.cs" />
+    <Compile Include="Form\FormHistoric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormHistoric.Designer.cs">
+      <DependentUpon>FormHistoric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormInitialize.cs" />
+    <Compile Include="Form\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormOption.Designer.cs">
+      <DependentUpon>FormOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormStat.Designer.cs">
+      <DependentUpon>FormStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form\FormHistoric.resx">
+      <DependentUpon>FormHistoric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormOption.resx">
+      <DependentUpon>FormOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormStat.resx">
+      <DependentUpon>FormStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fortnite_Logo.ico" />
+    <None Include="Ressources\Milieu.jpg" />
+    <None Include="Ressources\load.gif" />
+    <Content Include="Info\ApiKey.txt" />
+    <Content Include="Info\XMLFile1.xml" />
+    <None Include="Ressources\Milieu2.jpg" />
+    <Content Include="XML\config.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="XML\EN.xml" />
+    <Content Include="XML\FR.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Ressources\Fortnite_Logo_Ico.png" />
+    <None Include="Ressources\Fortnite_Logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Framework\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_Button\_Button.csproj">
+      <Project>{2476F81A-93B9-416E-8FCE-C2D08AB26E1B}</Project>
+      <Name>_Button</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

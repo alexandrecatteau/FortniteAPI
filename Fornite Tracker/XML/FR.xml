@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<language>
+  <button>
+    <stat>Statistiques</stat>
+    <history>Historiques</history>
+    <option>Options</option>
+    <ok>OK</ok>
+    <cancel>Annuler</cancel>
+    <search>Chercher</search>
+    <allStat>Tous</allStat>
+    <solo>Solo</solo>
+    <duo>Duo</duo>
+    <squad>Section</squad>
+  </button>
+  <label>
+    <titleOption>Options</titleOption>
+    <login>Pseudo</login>
+    <platform>Plateforme</platform>
+    <apiKey>Clé API</apiKey>
+    <apiKeyGenerate>Générer une clé API</apiKeyGenerate>
+    <language>Langage</language>
+    <lifeTimeStat>
+      <title>Stats générales</title>
+      <score>Score</score>
+      <matchsPlayed>Matchs joués</matchsPlayed>
+      <wins>Victoires</wins>
+      <winPercentage>% Victoires</winPercentage>
+      <kill>Eliminations</kill>
+      <killDeath>Eliminations / Mort</killDeath>
+      <killMinute>Elimination / Minute</killMinute>
+      <timePlayed>Temps joué</timePlayed>
+    </lifeTimeStat>
+    <stat>
+      <title>
+        <solo>Stats Solo</solo>
+        <duo>Stats Duo</duo>
+        <squad>Stats Section</squad>
+      </title>
+      <score>Score</score>
+      <matchesPlayed>Matchs joués</matchesPlayed>
+      <top>
+        <top1>Top 1</top1>
+        <top5>Top 5</top5>
+        <top12>Top 12</top12>
+        <top3>Top 3</top3>
+        <top6>Top 6</top6>
+        <top10>Top 10</top10>
+        <top25>Top 25</top25>
+      </top>
+      <winRatio>% Victoires</winRatio>
+      <kill>Eliminations</kill>
+      <killDeath>Eliminations / Mort</killDeath>
+      <killMinute>Eliminations / Minute</killMinute>
+      <killGame>Eliminations / Partie</killGame>
+      <timePlayed>Temps joué</timePlayed>
+    </stat>
+    <color>
+      <title>Couleurs</title>
+      <window>Fenêtre</window>
+      <button>Bouttons</button>
+      <buttonHover>Bouton survol</buttonHover>
+      <font>Police</font>
+    </color>
+  </label>
+</language>

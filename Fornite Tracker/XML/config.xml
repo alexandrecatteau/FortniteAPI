@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <login>Katou59</login>
+  <platform>0</platform>
+  <apiKey>a865bdf4-a968-420d-beca-011e5a1f73a7</apiKey>
+  <language>1</language>
+  <color>
+    <backgroundColor_Form>#033077</backgroundColor_Form>
+    <backgroundColor_Button>#1138d6</backgroundColor_Button>
+    <backgroundColor_Button_Hover>#66660b</backgroundColor_Button_Hover>
+    <fontColor>#e0e028</fontColor>
+  </color>
+</config>

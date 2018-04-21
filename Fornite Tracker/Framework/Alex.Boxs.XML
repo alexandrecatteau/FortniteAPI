@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Alex.Boxs</name>
+    </assembly>
+    <members>
+        <member name="T:Alex.Boxs.BoxBigError">
+            <summary>
+            Affichage d'une box avec un TextBox pour mettre le message d'erreur
+            </summary>
+        </member>
+        <member name="M:Alex.Boxs.BoxBigError.#ctor">
+            <summary>
+            Constructeur
+            </summary>
+        </member>
+        <member name="M:Alex.Boxs.BoxBigError.Show(System.String,System.String,System.String)">
+            <summary>
+            Affichage de la Box
+            </summary>
+            <param name="title">Titre de la box</param>
+            <param name="message">Message à indiquer</param>
+            <param name="errorMessage">Message d'erreur</param>
+        </member>
+        <member name="F:Alex.Boxs.BoxBigError.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Alex.Boxs.BoxBigError.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Alex.Boxs.BoxBigError.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Alex.Boxs.BoxError">
+            <summary>
+            Affichage d'un BoxErreur
+            </summary>
+        </member>
+        <member name="M:Alex.Boxs.BoxError.#ctor">
+            <summary>
+            Affichage d'une BoxErreur
+            </summary>
+        </member>
+        <member name="M:Alex.Boxs.BoxError.Show(System.String,System.String)">
+            <summary>
+            Affichage du message
+            </summary>
+            <param name="title">Titre de la box</param>
+            <param name="message">Message à afficher</param>
+        </member>
+        <member name="M:Alex.Boxs.BoxError.InitializeForm">
+            <summary>
+            Initialisation de la form
+            </summary>
+        </member>
+        <member name="M:Alex.Boxs.BoxError.btnOk_Click(System.Object,System.EventArgs)">
+            <summary>
+            Fermeture de la fenetre
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Alex.Boxs.BoxError.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Alex.Boxs.BoxError.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Alex.Boxs.BoxError.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Alex.Boxs.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:Alex.Boxs.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:Alex.Boxs.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>

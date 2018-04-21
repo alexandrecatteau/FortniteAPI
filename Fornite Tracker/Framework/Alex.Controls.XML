@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Alex.Controls</name>
+    </assembly>
+    <members>
+        <member name="T:Alex.Controls.ExtensionMethods">
+            <summary>
+            Class permettant de gérer le sintillement d'une datagridview
+            </summary>
+        </member>
+        <member name="M:Alex.Controls.ExtensionMethods.DoubleBuffered(System.Windows.Forms.DataGridView,System.Boolean)">
+            <summary>
+            Annule le sintillement d'un dgv et la rend fluide
+            </summary>
+            <param name="setting">true pour activer</param>
+        </member>
+        <member name="T:Alex.Controls.ItemData">
+            <summary>
+            Creation d'un objet pour mettre dans les _ComboBox
+            </summary>
+        </member>
+        <member name="P:Alex.Controls.ItemData.Item">
+            <summary>
+            PK
+            </summary>
+        </member>
+        <member name="P:Alex.Controls.ItemData.Text">
+            <summary>
+            Texte à afficher
+            </summary>
+        </member>
+        <member name="M:Alex.Controls.ItemData.#ctor(System.Object,System.String)">
+            <summary>
+            Constructeur
+            </summary>
+            <param name="item">PK</param>
+            <param name="text">Texte à afficher</param>
+        </member>
+        <member name="M:Alex.Controls.ItemData.ToString">
+            <summary>
+            Elément à afficher
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Alex.Controls._ComboBox">
+            <summary>
+            Creation d'un objet pour mettre dans _ListBox ou _Combobox
+            </summary>
+        </member>
+        <member name="M:Alex.Controls._ComboBox.#ctor">
+            <summary>
+            Constructeur
+            </summary>
+        </member>
+        <member name="M:Alex.Controls._ComboBox.#ctor(System.Object)">
+            <summary>
+            constructeur
+            </summary>
+            <param name="item">Objet ItemData</param>
+        </member>
+        <member name="T:Alex.Controls._TextBox">
+            <summary>
+            TextBox Personnalisé
+            </summary>
+        </member>
+        <member name="P:Alex.Controls._TextBox.FocusColor">
+            <summary>
+            Couleur lors du focus
+            </summary>
+        </member>
+        <member name="M:Alex.Controls._TextBox.#ctor">
+            <summary>
+            Constructeur
+            </summary>
+        </member>
+        <member name="M:Alex.Controls._TextBox.Txt_LostFocus(System.Object,System.EventArgs)">
+            <summary>
+            Changement de couleur lors de la perte du focus
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Alex.Controls._TextBox.Txt_GotFocus(System.Object,System.EventArgs)">
+            <summary>
+            Changement de couleur lors du focus
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>
