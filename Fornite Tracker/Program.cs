@@ -17,6 +17,7 @@ namespace Fornite_Tracker
         [STAThread]
         static void Main()
         {
+            MessageBox.Show("Test");
             //----------------------------------------------------
             //Vérification que l'application n'est pas déja lancée
             //----------------------------------------------------
